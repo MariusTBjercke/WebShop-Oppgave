@@ -6,7 +6,8 @@ namespace WebShop_Oppgave
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var inventory = new StoreInventory();
+            inventory.PrintInventory("1");
         }
     }
 }
